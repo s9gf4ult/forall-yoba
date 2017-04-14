@@ -1,0 +1,103 @@
+name:                forall-yoba
+version:             0.1.0.0
+description:         Best package ever
+homepage:            https://github.com/s9gf4ult/forall-yoba#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2017 Author name here
+category:            Universe
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable forall-yoba
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       DRBG
+                     , Glob >= 0.7.5
+                     , QuickCheck >=2.6
+                     , SHA >= 1.6.4.2
+                     , aeson >= 0.11 && < 0.12
+                     , amqp >= 0.13.1
+                     , async
+                     , base >=4.8 && <4.9
+                     , base64-bytestring >= 1.0.0.1
+                     , bifunctors
+                     , binary >= 0.7
+                     , blaze-builder >= 0.4
+                     , bytestring
+                     , case-insensitive
+                     , clientsession >= 0.9.1.1
+                     , clock >= 0.7
+                     , containers >=0.5.5.1
+                     , cookie >= 0.4.2
+                     , cryptonite >= 0.15
+                     , data-default
+                     , deepseq >= 1.3.0.2
+                     , email-validate
+                     , ether >= 0.4
+                     , exceptions
+                     , fast-logger
+                     , filepath >= 1.4
+                     , formatting >= 6.1.1
+                     , generic-deriving >= 1.9
+                     , haskeline
+                     , hset
+                     , http-streams >= 0.8.3.1
+                     , http-types >= 0.9
+                     , inflections >= 0.1.0.9
+                     , io-streams >= 1.3.0.0
+                     , iproute >= 1.7
+                     , lens >= 4.13
+                     , lifted-async
+                     , list-t >= 1
+                     , memory >= 0.11
+                     , mersenne-random >= 1.0
+                     , monad-control
+                     , monad-logger >= 0.3.15
+                     , monad-loops >= 0.4.2
+                     , mtl >= 2.2
+                     , network >= 2.6.3
+                     , network-info >= 0.2
+                     , network-uri >= 2.6.1
+                     , open-union
+                     , optional-args >= 1.0
+                     , optparse-applicative >= 0.11.0.2
+                     , parsec >= 3.1.9
+                     , path-pieces
+                     , pcre-heavy >= 1.0.0
+                     , primitive >= 0.6.1.0
+                     , quickcheck-instances
+                     , random
+                     , regex-applicative >= 0.3
+                     , resource-pool
+                     , rollbar >= 0.3.1
+                     , scientific
+                     , semigroups >= 0.18.0.1
+                     , servant >= 0.7
+                     , servant-server >= 0.7
+                     , shakespeare >= 2.0.0
+                     , soap
+                     , split
+                     , tagged
+                     , template-haskell
+                     , text >= 1.2.1.3
+                     , time
+                     , timezone-olson    >= 0.1
+                     , timezone-series
+                     , tracy >= 0.1.0.0
+                     , transformers      >= 0.4.2
+                     , transformers-base >= 0.4.4
+                     , transformers-lift >= 0.1
+                     , type-fun
+                     , unix >= 2.7
+                     , unordered-containers
+                     , uuid
+                     , vector >= 0.10.12.2
+                     , vinyl
+                     , wai >= 3.0.3
+                     , yesod
+                       

@@ -1,0 +1,13 @@
+flags: {}
+packages:
+- '.'
+extra-deps:
+- hreader-1.1.0
+- hset-2.2.0
+- list-t-1
+- mersenne-random-1.0.0.1
+- open-union-0.2.0.0
+- postgresql-query-3.1.0
+- rollbar-0.3.1
+- type-fun-0.1.1
+resolver: lts-6.30
